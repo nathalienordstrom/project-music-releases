@@ -1,12 +1,23 @@
 import React from 'react'
 import data from './data.json'
+import { Album } from './Album.js'
 
 console.log(data)
 
+const albumsArray = data.albums.items;
+console.log(albumsArray)
+
 export const App = () => {
-  return (
-    <div>
-      Find me in src/app.js!
-    </div>
-  )
+    return (
+      <div>
+        {albumsArray.map((album) => {
+          return <Album
+          image={album.images[1].url} 
+          song={album.name}
+          artist={album.artists[0].name}
+           />;
+        })}
+      </div>
+      
+    );
 }
