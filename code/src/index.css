@@ -29,6 +29,9 @@ flex-direction: column;
 padding: 20px;
 }
 
+header {
+  color: white;
+}
 
     
 .song {
