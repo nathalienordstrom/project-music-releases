@@ -1,11 +1,9 @@
 import React from "react";
 export const Album = (props) => {
     return (
-        <>
-        <header>New albums and singles</header>
-
-        <section className="musicList">
-        
+        <>        
+    <section className="musicList">
+       
             <div className="card">
                 <div className="images">
                     <a className="album-link" href={props.albumUrl} target="_blank"><img className="image" src={props.image} /></a>
