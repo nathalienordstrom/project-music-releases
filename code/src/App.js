@@ -14,7 +14,9 @@ export const App = () => {
           return <Album
           image={album.images[1].url} 
           song={album.name}
-          artist={album.artists[0].name}
+          artist={album.artists}
+          albumUrl={album.external_urls.spotify}
+        
            />;
         })}
       </div>
