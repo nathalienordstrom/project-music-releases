@@ -10,6 +10,8 @@ console.log(albumsArray)
 export const App = () => {
     return (
       <div>
+        <header><b>New album and singles</b></header>
+        <div className="music">
         {albumsArray.map((album) => {
           return <Album
           image={album.images[1].url} 
@@ -20,6 +22,6 @@ export const App = () => {
            />;
         })}
       </div>
-      
+      </div>
     );
 }
