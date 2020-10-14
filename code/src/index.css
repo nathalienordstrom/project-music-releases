@@ -12,7 +12,7 @@ body {
 
 .music {
   /*box-shadow: 0px 0px 10px 0px #616161;*/
-  border-top: 1px solid #3b3b3b;
+  border-top: 1px outset #3b3b3b;
   border-bottom: 1px solid #3b3b3b;
   margin:0;
   display: inline-grid;
@@ -35,7 +35,7 @@ flex-direction: column;
 
 header {
   color: white;
-  padding: 20px 0 20px 0;
+  padding: 20px 0 20px 0px;
   font-size: 20px;
   
 }

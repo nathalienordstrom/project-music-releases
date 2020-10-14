@@ -1,7 +1,4 @@
 import React from "react";
-
-
-
 export const Album = (props) => {
     return (
         <>        
@@ -36,7 +33,7 @@ export const Album = (props) => {
             </div>
 
         </section>
-
+       
         </>
     )
 };
